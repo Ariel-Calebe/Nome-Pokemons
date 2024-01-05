@@ -18,10 +18,6 @@ let pokemon = [
     ["Wurmple", 2, "Macho", 7, 14]
 ]
 
-console.log(pokemon[0][0] + " - CADASTRADO COM SUCESSO")
-console.log(pokemon[1][0] + " - CADASTRADO COM SUCESSO")
-console.log(pokemon[2][0] + " - CADASTRADO COM SUCESSO")
-console.log(pokemon[3][0] + " - CADASTRADO COM SUCESSO")
-console.log(pokemon[4][0] + " - CADASTRADO COM SUCESSO")
-console.log(pokemon[5][0] + " - CADASTRADO COM SUCESSO")
-console.log(pokemon[6][0] + " - CADASTRADO COM SUCESSO")
+for (let i = 0 ; i < pokemon.length ; i++){
+    console.log(pokemon [i] [0] + " cadastrado com sucesso")
+}
